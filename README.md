@@ -41,12 +41,18 @@
 Приложите в файл README.md текст использованных команд в GitHub.
 
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+1. `sudo -s`
+2. `wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_6.0+ubuntu24.04_all.deb`
+3. `dpkg -i zabbix-release_latest_6.0+ubuntu24.04_all.deb`
+4. `apt update`
+5. `apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent`
+6. `sudo -u postgres createuser --pwprompt zabbix`
+7. `sudo -u postgres createdb -O zabbix zabbix`
+8. `zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix`
+9. `DBPassword=123456789`
+10. `systemctl restart zabbix-server zabbix-agent apache2`
+11. `systemctl enable zabbix-server zabbix-agent apache2`
+12. `systemctl status zabbix-server`
 
 ```
 Поле для вставки кода...
@@ -54,10 +60,11 @@
 ....
 ....
 ....
+....
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+![admin_zabbix](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/admin_zabbix.jpg)`
 
 
 ---
@@ -78,11 +85,13 @@
 Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 Приложите в файл README.md текст использованных команд в GitHub
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. 
+1. `sudo -s`
+2. `wget https://repo.zabbix.com/zabbix/7.4/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.4+ubuntu24.04_all.deb`
+3. `dpkg -i zabbix-release_latest_7.4+ubuntu24.04_all.deb`
+4. `apt update`
+5. `apt install zabbix-agent`
+6. `systemctl restart zabbix-agent`
+7. `systemctl enable zabbix-agen`
 
 ```
 Поле для вставки кода...
@@ -93,8 +102,10 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
-
+![zabbix_agent_online.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/zabbix_agent_online.jpg)`
+![zabbix_agent_log.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/zabbix_agent_log.jpg)
+![latest-data.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/latest-data.jpg)
+![graph.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/graph.jpg)
 
 ---
 
@@ -121,4 +132,4 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+![Disk_C_Size.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/Disk_C_Size.jpg)`
