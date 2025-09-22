@@ -63,8 +63,9 @@
 ....
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![admin_zabbix](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/admin_zabbix.jpg)`
+При необходимости прикрепитe сюда скриншоты
+
+![admin_zabbix](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/admin_zabbix.jpg)
 
 
 ---
@@ -101,8 +102,9 @@
 ....
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![zabbix_agent_online.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/zabbix_agent_online.jpg)`
+При необходимости прикрепитe сюда скриншоты
+
+![zabbix_agent_online.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/zabbix_agent_online.jpg)
 ![zabbix_agent_log.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/zabbix_agent_log.jpg)
 ![latest-data.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/latest-data.jpg)
 ![graph.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/graph.jpg)
@@ -131,5 +133,6 @@
 ....
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Disk_C_Size.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/Disk_C_Size.jpg)`
+При необходимости прикрепитe сюда скриншоты
+
+![Disk_C_Size.jpg](https://github.com/OshchepkovDP/-Zabbix-hw-02/blob/main/img/Disk_C_Size.jpg)
